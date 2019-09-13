@@ -1,4 +1,5 @@
-Feature: Add Tariff
+ @sriram
+ Feature: Add Tariff 
 
   Scenario:
      Given  user should be in the Telecome homepage
@@ -6,7 +7,8 @@ Feature: Add Tariff
     When User should be fill all the field with valid data
     And user should be click on submit button
     Then Add Tariff should be displayed
-    
+   
+    @smoke,@sriram
     Scenario:
      Given  user should be in the Telecome homepage
     And user should be click on Add Tariff
@@ -15,6 +17,7 @@ Feature: Add Tariff
     And user should be click on submit button
     Then Add Tariff should be displayed
     
+    @smoke
     Scenario:
      Given  user should be in the Telecome homepage
     And user should be click on Add Tariff
